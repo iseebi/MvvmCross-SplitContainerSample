@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitContainerSample.Core", "SplitContainerSample.Core\SplitContainerSample.Core.csproj", "{69B8ED48-F264-4352-A76C-FEB167117435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitContainerSample.Touch", "SplitContainerSample.Touch\SplitContainerSample.Touch.csproj", "{B61FC10F-CB41-4F77-87FD-92C7EC6A5C68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69B8ED48-F264-4352-A76C-FEB167117435}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{69B8ED48-F264-4352-A76C-FEB167117435}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{69B8ED48-F264-4352-A76C-FEB167117435}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{69B8ED48-F264-4352-A76C-FEB167117435}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{69B8ED48-F264-4352-A76C-FEB167117435}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{69B8ED48-F264-4352-A76C-FEB167117435}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{69B8ED48-F264-4352-A76C-FEB167117435}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{69B8ED48-F264-4352-A76C-FEB167117435}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{69B8ED48-F264-4352-A76C-FEB167117435}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{69B8ED48-F264-4352-A76C-FEB167117435}.Release|iPhone.Build.0 = Release|Any CPU
+		{69B8ED48-F264-4352-A76C-FEB167117435}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{69B8ED48-F264-4352-A76C-FEB167117435}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{B61FC10F-CB41-4F77-87FD-92C7EC6A5C68}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{B61FC10F-CB41-4F77-87FD-92C7EC6A5C68}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{B61FC10F-CB41-4F77-87FD-92C7EC6A5C68}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{B61FC10F-CB41-4F77-87FD-92C7EC6A5C68}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{B61FC10F-CB41-4F77-87FD-92C7EC6A5C68}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B61FC10F-CB41-4F77-87FD-92C7EC6A5C68}.Debug|iPhone.Build.0 = Debug|iPhone
+		{B61FC10F-CB41-4F77-87FD-92C7EC6A5C68}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B61FC10F-CB41-4F77-87FD-92C7EC6A5C68}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B61FC10F-CB41-4F77-87FD-92C7EC6A5C68}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B61FC10F-CB41-4F77-87FD-92C7EC6A5C68}.Release|iPhone.Build.0 = Release|iPhone
+		{B61FC10F-CB41-4F77-87FD-92C7EC6A5C68}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B61FC10F-CB41-4F77-87FD-92C7EC6A5C68}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SplitContainerSample.Touch\SplitContainerSample.Touch.csproj
+	EndGlobalSection
+EndGlobal
